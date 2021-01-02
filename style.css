@@ -17,6 +17,7 @@ html {
     padding: 0px;
     margin-top: 0px;
     z-index: 5;
+    width: 100%;
 }
 
 .bar {
@@ -112,22 +113,6 @@ html {
 }
 
 html {
-    background-image: url(./images/transparentLogo.png)
+    background-image: url(./images/cfTrans.png)
 }
 
-.images {
-    display: inline-block;
-    width: 100%;    
-    border: black;
-    border-width: 3px;
-    border-style: solid;
-    margin-top: 30px;
-    background-color: grey;
-    padding: 20px 100px;
-}
-
-.other {
-    width: 200px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
