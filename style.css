@@ -1,0 +1,133 @@
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bar li {
+    display: inline;
+    color: white;
+    margin-left: 40px; 
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+
+
+.navContainer {
+    background-color: black;
+    padding: 0px;
+    margin-top: 0px;
+    z-index: 5;
+}
+
+.bar {
+    display: inline-block;
+    background-color: black;
+    vertical-align: middle;
+}
+
+.navLogo {
+    width: 165px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    z-index: 1;
+    background-color: white;
+}
+
+
+.searchLogo {
+    vertical-align: middle;
+    width: 30px;
+}
+
+.campaignLogo {
+    margin-left: auto;
+    margin-right: auto;
+}
+#campaignLogo {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainContainer {
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-left: 3%;
+    width: 40%;
+    display: inline-block;
+}
+
+#campaignName {
+    text-decoration: underline;
+}
+
+.raiseContainer {
+    width: 40%;
+    display: inline-block;
+    margin-left: 5%;
+    position: relative;
+    vertical-align: top;
+    padding: 10px 10px;
+    margin-top: 20px
+}
+
+#state {
+    text-decoration: underline;
+}
+
+#bar {
+    width: 85%;
+    height: 35px;
+    color: blue;
+}
+
+.followMe {
+    margin-top: 40px;
+} 
+
+#follow {
+    margin-left: 10px;
+    margin-right: 20px;
+    color: grey;
+    background-color: white;
+    padding: 15px 30px;
+}
+
+#invest {
+    margin-left: 20px;
+    margin-right: 10px;
+    color: white;
+    background-color: grey;
+    padding: 15px 30px;
+}
+
+.campaignIntro {
+    font-size: 18px;
+}
+
+
+.background {
+    position: absolute;
+}
+
+html {
+    background-image: url(./images/transparentLogo.png)
+}
+
+.images {
+    display: inline-block;
+    width: 100%;    
+    border: black;
+    border-width: 3px;
+    border-style: solid;
+    margin-top: 30px;
+    background-color: grey;
+    padding: 20px 100px;
+}
+
+.other {
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
