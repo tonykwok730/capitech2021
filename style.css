@@ -10,7 +10,9 @@ html {
     font-weight: bold;
 }
 
-
+.popular h2 {
+    text-decoration: underline ;
+}
 
 .navContainer {
     background-color: black;
@@ -116,3 +118,10 @@ html {
     background-image: url(./images/cfTrans.png)
 }
 
+.info h4{
+    font-size: 18px;
+}
+
+.nav a {
+    color: white;
+}
