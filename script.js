@@ -1,5 +1,13 @@
 alert('JavascriptLinked');
 
+
+
+const connectApi = function() {
+
+let a = document.getElementById('invest');
+
+a.innerHTML = "Connecting to API";
+
 var request = new XMLHttpRequest()
 
 request.open('GET', 'https://ghibliapi.herokuapp.com/films', true)
@@ -9,7 +17,8 @@ request.onload = function () {
 
   if (request.status >= 200 && request.status < 400) {
     data.forEach((movie) => {
-      console.log(movie.title)
+      console.log(movie.title);
+      a.innerHTML = "Connected";
     })
   } else {
     console.log('error')
@@ -21,10 +30,5 @@ request.send()
 
 
 
-const connectApi = function() {
-
-let a = document.getElementById('invest');
-
-a.innerHTML = "Connecting the API";
 
 }
