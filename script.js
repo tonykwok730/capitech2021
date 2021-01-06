@@ -1,6 +1,20 @@
-alert('JavascriptLinked');
+//alert('JavascriptLinked');
 
+const following = () => {
 
+let b = document.getElementById('follow');
+
+b.innerHTML = "Following";
+
+}
+
+const searching = () => {
+
+let c = document.getElementById('search');
+let d = document.getElementById('searching');
+c.style.display = "none";
+d.style.display = "inline";
+}
 
 const connectApi = function() {
 
@@ -26,9 +40,4 @@ request.onload = function () {
 }
 
 request.send()
-
-
-
-
-
 }

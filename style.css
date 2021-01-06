@@ -5,7 +5,7 @@ html {
 .bar li {
     display: inline;
     color: white;
-    margin-left: 40px; 
+    margin-left: 30px; 
     margin-right: 25px;
     font-weight: bold;
 }
@@ -125,3 +125,9 @@ html {
 .nav a {
     color: white;
 }
+
+#searching {
+    display: none;
+    margin: 0px;
+}
+

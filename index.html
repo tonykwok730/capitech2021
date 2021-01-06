@@ -10,7 +10,7 @@
     <body>
         <div class="navContainer">
             <div class="navLogo">
-                <img src='./images/newLogo-removebg-preview.png' class="navLogo">
+                <a href="index.html"><img src='./images/newLogo-removebg-preview.png' class="navLogo"></a>
             </div>
             <div class="bar">
                 <ul>
@@ -21,7 +21,8 @@
                     <li class="nav" id="moreAboutUs"><a href="./index.html">About Us</a></li>
                     <li class="nav" id="faq"><a href="./index.html">FAQ</a></li>
                     <li class="nav" id="login"><a href="./index.html">Login</a></li> 
-                    <li class="nav"><img class="searchLogo" id="search" src="./images/searchNew.png"></li>  
+                    <li class="nav"><img class="searchLogo" id="search" onclick="searching()" src="./images/searchNew.png"></li>  
+                    <li class="nav" id="searching"><input type="text" name="searching"></input></li>
                 </ul>  
             </div>
         </div>
@@ -63,7 +64,7 @@
                 </div>
             </div>
             <div class="followMe">
-                <button type="submit" id="follow" name="follow">Follow Campaign</button>
+                <button type="submit" onclick="following()" id="follow" name="follow">Follow Campaign</button>
                 <button type="submit" onclick="connectApi()" id="invest" name="invest">Invest Campaign</button>
             </div>
         </div>
