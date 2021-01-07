@@ -61,6 +61,10 @@ html {
     display: inline-block;
 }
 
+#search:hover {
+    
+}
+
 #campaignName {
     text-decoration: underline;
 }
@@ -137,4 +141,8 @@ html {
     color: white;
     background-color: grey;
     padding: 15px 30px;
+}
+
+#mainBody {
+    zoom:120%
 }
