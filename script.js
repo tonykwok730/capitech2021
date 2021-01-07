@@ -20,7 +20,7 @@ const deploy = function() {
 
 var request = new XMLHttpRequest();
 
-request.open('GET', 'http://ec2-34-224-66-94.compute-1.amazonaws.com/deploy_campaign?target_amount=10&max_amount=15&equity=0.1&start_ts=1609990432&duration=240&owner=0xA7ACbB81aeD8774D5C4EfC311BB044962C20Ba9c', true)
+request.open('GET', '//ec2-34-224-66-94.compute-1.amazonaws.com/deploy_campaign?target_amount=10&max_amount=15&equity=0.1&start_ts=1609990432&duration=240&owner=0xA7ACbB81aeD8774D5C4EfC311BB044962C20Ba9c', true)
 request.getAllResponseHeaders()
 request.onload = function() {
 //Parse JSON
